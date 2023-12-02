@@ -1,0 +1,52 @@
+git config --global user.name “Zubair Akram”
+git config --global user.email “zubairprogramerexpert@gmail.com”
+
+
+1st command is 
+
+# add a single file 
+
+git add file Name.
+
+# add a all File 
+git add .
+
+# add a commit what change in code 
+
+git commit -m {commit msg}
+
+# Push the cod into github
+
+git push origin dir name {main}
+
+# Check the status of file 
+
+git status
+
+# removed the file of staging
+
+git restore --staged {fileName}
+
+# Copy the one file github into local project 
+
+git pull origin main
+
+# Create a New Branch using git
+
+git branch {branch name}
+
+# switch to new Branch
+
+git checkout {branch name}
+
+# get the code from other branch to main
+
+git merge {branch name = testb}
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+
